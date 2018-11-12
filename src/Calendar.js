@@ -13,6 +13,7 @@ export default class Calendar extends React.Component {
     static defaultProps = {
         startDate: new Date(),
         selectFrom: new Date(),
+        selectTo: null,
         monthsCount: 4,
         type: 'gregorian',
         onSelectionChange: () => null,
@@ -102,9 +103,11 @@ export default class Calendar extends React.Component {
 
             selectedBackColor: PropTypes.string,
             selectedTextColor: PropTypes.string,
+            selectedBorderRadius: PropTypes.number,
             todayBorderColor: PropTypes.string,
             todayTextColor: PropTypes.string,
-
+            todayBorderRadius: PropTypes.number,
+            todayBorderWidth: PropTypes.number,
             inRangeBackColor: PropTypes.string,
             inRangeTextColor: PropTypes.string,
 

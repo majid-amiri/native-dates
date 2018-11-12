@@ -78,7 +78,7 @@ Some extra useful props to make Native-Dates more customizable.
 ## Month
 
 You can use month props to control how a month is displayed in date picker. There are 2 ways you can use month props:
-####1.Use our predefined month object to customize each month.
+#### 1.Use our predefined month object to customize each month.
 ```
 <NativeDates
 	month={
@@ -95,7 +95,7 @@ You can use month props to control how a month is displayed in date picker. Ther
 	}
 />
 ```
-####2.Use our 'monthHeader' function that helps you control everything by yourself. Example:
+#### 2.Use our 'monthHeader' function that helps you control everything by yourself. Example:
 ```
 <NativeDates
 	month={
@@ -116,7 +116,7 @@ You can use month props to control how a month is displayed in date picker. Ther
 ## Day
 
 You can use day props to control how a day is displayed in date picker. There are 2 ways you can use day props:
-####1.Use our predefined day object to customize each day.
+#### 1.Use our predefined day object to customize each day.
 ```
 <NativeDates
 	day={
@@ -138,7 +138,7 @@ You can use day props to control how a day is displayed in date picker. There ar
 	}
 />
 ```
-####2.Use our 'dayComponent' function that helps you control everything by yourself. Example:
+#### 2.Use our 'dayComponent' function that helps you control everything by yourself. Example:
 ```
 <NativeDates
 	day={
