@@ -49,7 +49,7 @@ export default class Month extends React.PureComponent {
                 {
                     idx(month, _ => _.header.monthHeader) ? month.header.monthHeader(year, monthName, weekDaysLocale) : [
                         this._renderMonthName(),
-                        weekdaysNameMode === 'simple' || weekdaysNameMode === 'both' && <MonthWeekdays {...this.props}/>
+                        (weekdaysNameMode === 'simple' || weekdaysNameMode === 'both') && <MonthWeekdays key={year + monthName + year} {...this.props}/>
                     ]}
                 <View style={[styles.monthDays, {flexDirection: isRTL ? 'row-reverse' : 'row'}]}>
                     {days.map((day, i) => {

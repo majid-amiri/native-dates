@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {View, StyleSheet} from "react-native";
-import moment from 'moment-jalaali'
+//import moment from 'moment-jalaali'
 //import moment from 'moment-hijri';
 import Calendar from './src/Calendar';
 
@@ -9,16 +9,17 @@ export default class App extends Component {
         return (
             <View style={styles.main}>
                 <Calendar
-                    type={'jalali'}
-                    monthsCount={10}
-                    // onSelectionChange={(value) => {
-                    //     console.log(value)
-                    // }}
-                    //bodyBackColor={'#273238'}
+                    //type={'jalali'}
+                    //monthsCount={10}
+                    onSelectionChange={(value) => {
+                        console.log(value)
+                    }}
+                    // bodyBackColor={'#273238'}
                     // rangeSelect={true}
-                    moment={moment}
-                    //staticMonthBackColor={'#3E4E54'}
-                    //staticMonthTextColor={'#fff'}
+                    // monthNameMode={'both'}
+                    // moment={moment}
+                    // staticMonthBackColor={'#3E4E54'}
+                    // staticMonthTextColor={'#fff'}
                     // staticWeekdaysBackColor={'#3E4E54'}
                     // staticWeekdaysTextColor={'#fff'}
                     // day={{
@@ -45,7 +46,7 @@ export default class App extends Component {
                     //         backgroundColor: '#273238'
                     //     }
                     // }}
-                    //style={{ marginBottom: 200 }}
+                    // style={{ marginBottom: 200 }}
                 />
             </View>
         );
@@ -57,6 +58,7 @@ const styles = StyleSheet.create({
         flex:1,
         width: '100%',
         height: '100%',
-        marginTop: 50,
+        paddingTop: 25,
+        //backgroundColor: '#3E4E54'
     }
 })

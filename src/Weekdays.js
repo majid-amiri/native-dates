@@ -29,12 +29,12 @@ export const MonthWeekdays = (props) => {
     const {days, month, weekDaysLocale, width, type} = props;
     const weekDays = type === 'jalali' ? jalaliWeekdays : type === 'hijri' ? hijriWeekdays : weekDaysLocale;
     return (
-        <View key={`${days[7].date.getMonth()}monthWeekdays`}
+        <View key={`month${days[7].date.getMonth()}Weekdays`}
               style={[{...styles.weekDayNames}, {borderBottomWidth: 0}, {...idx(month, _ => _.header.weekdaysStyle)}]}>
             {weekDays.map((dayName, i) => {
                 return (
                     <View
-                        key={`${days[7].date.getMonth()}monthWeekdayName${i}`}
+                        key={`month${days[7].date.getMonth()}WeekdayName${i}`}
                         style={[{...styles.weekDayNamesItem},
                             {
                                 width: width / 7,

@@ -1,4 +1,4 @@
-package com.reactnativecalendar;
+package com.native-dates;
 
 import android.app.Application;
 

@@ -16,7 +16,7 @@ export default class Calendar extends React.Component {
         selectTo: null,
         monthsCount: 4,
         type: 'gregorian',
-        onSelectionChange: () => null,
+        onSelectionChange: null,
         monthNameChangeThreshold: 60,
 
         monthsLocale: ['January', 'February', 'March', 'April', 'May', 'June',
@@ -33,7 +33,7 @@ export default class Calendar extends React.Component {
         bodyTextColor: '#444',
         month: {
             header: {
-                monthHeader: () => null,
+                monthHeader: null,
             },
         },
         day: {
@@ -49,7 +49,7 @@ export default class Calendar extends React.Component {
             inRangeBackColor: '#ddd',
             inRangeTextColor: '#444',
         },
-        moment: () => null,
+        moment: null,
         rangeSelect: false
     };
 
