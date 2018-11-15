@@ -1,6 +1,6 @@
 {
   "name": "native-dates",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Native-Dates is a React Native single/range date picker including Gregorian, Shamsi (Persian) and Hijri calendars support using Moment.js and RTL Support.",
   "repository": {
     "type": "git",
