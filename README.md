@@ -2,9 +2,9 @@
 
 Native-Dates is a React Native single/range date picker including Gregorian, Shamsi (Persian) and Hijri calendars support using Moment.js and RTL Support.
 
-![](https://majidamiriii.github.io/images/sc5.png)
+![](https://majid-amiri.github.io/images/sc5.png)
 
-![](https://majidamiriii.github.io/images/sc1.png)
+![](https://majid-amiri.github.io/images/sc1.png)
 
 ## Installation
 
@@ -157,9 +157,9 @@ You can use day props to control how a day is displayed in date picker. There ar
 > **Note:** Using 'dayComponent' function causes all items of day object of method #1 become useless .
 
 ## More Screenshots
-![](https://majidamiriii.github.io/images/sc2.png)
+![](https://majid-amiri.github.io/images/sc2.png)
 
-![](https://majidamiriii.github.io/images/sc6.png)
+![](https://majid-amiri.github.io/images/sc6.png)
 
 ## Contributers
 - Mojtaba Izadmehr ([Github](https://github.com/M-Izadmehr))
