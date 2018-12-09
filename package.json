@@ -14,19 +14,17 @@
   },
   "main": "./src/Calendar.js",
   "dependencies": {
-    "@babel/runtime": "^7.0.0",
     "idx": "^2.4.0",
-    "moment-hijri": "^2.1.1",
-    "moment-jalaali": "^0.8.1",
-    "prop-types": "^15.6.2",
-    "react": "16.6.0-alpha.8af6728",
-    "react-native": "0.57.4"
+    "prop-types": "^15.6.2"
   },
   "devDependencies": {
+    "@babel/runtime": "^7.0.0",
     "babel-jest": "23.6.0",
     "jest": "23.6.0",
     "metro-react-native-babel-preset": "0.48.2",
-    "react-test-renderer": "16.6.0-alpha.8af6728"
+    "react-test-renderer": "16.6.0-alpha.8af6728",
+    "react": "16.6.0-alpha.8af6728",
+    "react-native": "0.57.4"
   },
   "jest": {
     "preset": "react-native"
