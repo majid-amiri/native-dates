@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {View, StyleSheet} from "react-native";
 //import moment from 'moment-jalaali'
 //import moment from 'moment-hijri';
-import Calendar from './src/Calendar';
+import Calendar from 'native-dates';
 
 export default class App extends Component {
     render() {
